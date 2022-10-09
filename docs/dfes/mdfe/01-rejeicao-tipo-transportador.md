@@ -67,6 +67,6 @@ e, para cooperativa de transporte de cargas, como:
 
 ## Referências
 
-- [Portal do Manifesto Eletrônico de Documentos Fiscais - SVRS](https://dfe-portal.svrs.rs.gov.br/Mdfe/Documentos#)
+- [Leiaute - Portal do Manifesto Eletrônico de Documentos Fiscais - SVRS](https://dfe-portal.svrs.rs.gov.br/Mdfe/Documentos#)
 - [Rejeição 744: O tipo de transportador deve ser ETC ou CTC quando informado CNPJ do proprietário do veículo de tração](https://www.inforsystem.com/artigos/37-documentos-fiscais/mdf-e/170-rejeicao-744-o-tipo-de-transportador-deve-ser-etc-ou-ctc-quando-informado-cnpj-do-proprietario-do-veiculo-de-tracao)
 - [Tipo de Transportador: ETC - TAC - CTC](https://ajuda.tryideas.com.br/books/documentos-fiscais/page/tipo-de-transportador-etc---tac---ctc)

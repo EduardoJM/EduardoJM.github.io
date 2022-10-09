@@ -34,4 +34,4 @@ Os campos do Leiaute que não são importantes para essas anotações foram remo
 
 ## Referências
 
-- [Portal do Manifesto Eletrônico de Documentos Fiscais - SVRS](https://dfe-portal.svrs.rs.gov.br/Mdfe/Documentos#)
+- [Leiaute - Portal do Manifesto Eletrônico de Documentos Fiscais - SVRS](https://dfe-portal.svrs.rs.gov.br/Mdfe/Documentos#)
