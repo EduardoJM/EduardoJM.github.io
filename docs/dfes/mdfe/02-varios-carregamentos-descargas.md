@@ -2,7 +2,11 @@
 sidebar_position: 2
 ---
 
-# Vários Carregamentos com Descarga em Diferentes UF's
+# Várias Descargas em Diferentes Localidades
+
+Durante o transporte de cargas, existem cargas que partes (NF-e's/CT-e's) são descarregadas ao longo do percurso. Nesses casos temos duas situações: quando as descargas acontecem em UF's diferentes e quando as descargas acontecem na mesma UF.
+
+## UFs Diferentes
 
 Uma situação que pode acontecer é um transporte levar cargas diferentes para duas UF's. Assim, os campos de localização de descarregamento (tais como `<UFFim>`, `<infMunDescarga>`) acabam por dificultar esses pontos (haja visto que o manifesto conta com apenas um de cada campo `<UFFim>` e `<infMunDescarga>`, por exemplo). Para situações com carregametos onde parte da carga vai pra uma UF e outra parte para outra UF é necessário a emissão de dois Manifestos (MDF-e), uma para cada um (Informações vindas da Transportadora).
 
@@ -31,6 +35,31 @@ Aqui, como citado o tipo de emitente, vale o anexo do leiaute:
 :::note Observação
 Os campos do Leiaute que não são importantes para essas anotações foram removidos da tabela acima.
 :::
+
+### Procedimento
+
+Nesse caso, os municipios de descarga serão identificados dentro das tags `<infMunDescarga>` dentro de `<infDoc>`. Um exemplo para isso é:
+
+```xml
+<!-- ... -->
+    <infDoc>
+        <infMunDescarga>
+            <cMunDescarga>2928901</cMunDescarga>
+            <xMunDescarga>Sao Desiderio</xMunDescarga>
+            <infCTe>
+                <chCTe><!-- ... --></chCTe>
+            </infCTe>
+        </infMunDescarga>
+        <infMunDescarga>
+            <cMunDescarga>2919553</cMunDescarga>
+            <xMunDescarga>Luis Eduardo Magalhaes</xMunDescarga>
+            <infCTe>
+                <chCTe><!-- ... --></chCTe>
+            </infCTe>
+        </infMunDescarga>
+    </infDoc>
+<!-- ... -->
+```
 
 ## Referências
 
