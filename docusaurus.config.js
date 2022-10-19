@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Anotações de Eduardo',
+  tagline: 'Repositório de Anotações de Eduardo',
   url: 'https://eduardojm.github.io',
   baseUrl: '/notes/',
   onBrokenLinks: 'throw',
@@ -37,7 +37,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/EduardoJM/notes/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -50,7 +50,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: '',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -63,7 +63,7 @@ const config = {
             label: 'Anotações',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/EduardoJM/notes',
             label: 'GitHub',
             position: 'right',
           },
@@ -73,42 +73,42 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Internet',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Anotações',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Autor',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'GitHub',
+                href: 'https://github.com/EduardoJM',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/goticodocalypso',
+              },
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/edujso/',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Mais',
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Polywork',
+                href: 'https://www.polywork.com/eduardo_oliveira',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Eduardo Oliveira. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
