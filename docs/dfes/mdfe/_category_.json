@@ -1,9 +1,8 @@
 {
-    "label": "MDF-e",
-    "position": 1,
-    "link": {
-      "type": "generated-index",
-      "description": "Anotações sobre emissão, regras de validação, rejeições em Manifestos Eletrônicos de Documentos Fiscais."
-    }
+  "label": "MDF-e",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Anotações sobre emissão, regras de validação, rejeições em Manifestos Eletrônicos de Documentos Fiscais."
   }
-  
+}
