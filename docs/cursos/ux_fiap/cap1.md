@@ -94,6 +94,10 @@ Mesmo com todo o cuidado, seu usuário pode encontrar obstáculos para cumprir s
 
 É muito comum apps e sites exibirem mensagens técnicas como "erro na conexão com banco de dados" ou "serviço indisponível". Isso não é legal. O usuário não entende e ainda pensa que o site ou app é cheio de erros.
 
+:::note Leituras
+Na página [Tratamento de Erros](../../design/error-handling.md) existem anotações feitas a partir da leitura de outros textos sobre o tema.
+:::
+
 ### Documentação e ajuda
 
 O ideal é que tudo em seu site ou aplicativo possa ser feito de forma bem intuitiva, mas em alguns casos é preciso oferecer informação ou ajuda para seus usuários. Isso amenizará qualquer impacto que uma dúvida possa ter quando ele pretende concluir alguma tarefa.
