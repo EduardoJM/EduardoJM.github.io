@@ -78,4 +78,4 @@ Do ponto de vista de fluxo de desenvolvimento é importante, sempre que for util
 
 ## Referências
 
-Jenni Nadler - [When life gives you lemons, write better error messages](https://wix-ux.com/when-life-gives-you-lemons-write-better-error-messages-46c5223e1a2f): When it comes to error handling, it truly is a team sport.
+NADLER, Jenni. When life gives you lemons, write better error messages. 2022. Disponível em: https://wix-ux.com/when-life-gives-you-lemons-write-better-error-messages-46c5223e1a2f. Acesso em: 6 dez. 2022.

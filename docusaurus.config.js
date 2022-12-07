@@ -45,6 +45,17 @@ const config = {
       }),
     ],
   ],
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'shorts',
+        path: 'shorts',
+        routeBasePath: 'shorts',
+        sidebarPath: require.resolve('./sidebars.shorts.js'),
+      },
+    ],
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -61,6 +72,12 @@ const config = {
             docId: 'intro',
             position: 'left',
             label: 'Anotações',
+          },
+          {
+            to: '/shorts/intro',
+            label: 'Comentários',
+            position: 'left',
+            activeBaseRegex: `/shorts/`,
           },
           {
             href: 'https://github.com/EduardoJM/notes',

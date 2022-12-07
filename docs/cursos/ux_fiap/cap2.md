@@ -122,11 +122,65 @@ Lembre-se de não encher demais com detalhes que não são relevantes para o seu
 
 ### Exemplos de Personas
 
-![Exemplo de Persona 1](./images/persona1.png)
+<details>
+    <summary>
+        <b>Exemplo 1 - </b>Empresa de consultoria de negócios e marketing
+    </summary>    
+    <b>MARÍLIA SOUZA</b>
+    <ul>
+        <li>41 anos</li>
+        <li>Dona de uma loja de comida saudável</li>
+        <li>Graduada em Administração de Empresas</li>
+    </ul>
+    <b>MEIOS DE COMUNICAÇÃO QUE MAIS USA</b><br/>
+    Assiste televisão à noite.<br/><br/>
+    <b>OBJETIVO</b><br/>
+    Quer investir na divulgação de sua loja, prospectar e fidelizar clientes, além de capacitar e motivar seus funcionários.<br/><br/>
+    <b>DESAFIOS</b><br/>
+    Tem pouco dinheiro para investir e a concorrência em sua região é razoavelmente grande.<br/><br/>
+    <b>COMO NOSSA EMPRESA PODE AJUDAR</b><br/>
+    Podemos oferecer a ela cursos de capacitação em gestão de recursos humanos e financeiros. Podemos oferecer também um planejamento de marketing de conteúdo.<br/>
+</details>
 
-![Exemplo de Persona 2](./images/persona2.png)
+<details>
+    <summary>
+        <b>Exemplo 2 - </b>E-commerce de peças e acessórios para bicicletas
+    </summary>
+    <b>HENRIQUE SANTOS</b>
+    <ul>
+        <li>35 anos</li>
+        <li>Gerente de logística</li>
+        <li>Graduado em Logística</li>
+        <li>Casado, 2 filhos</li>
+    </ul>
+    <b>MEIOS DE COMUNICAÇÃO QUE MAIS USA</b><br/>
+    Acessa diariamente os sites de notícia para se atualizar, como Terra e Valor Econômico, usa com muita frequência o WhatsApp, tanto para trabalho como para assuntos pessoais, além de acessar diariamente seu Facebook. Por ser um ciclista amador, acessa blogs e segue páginas relacionadas ao tema.<br/><br/>
+    <b>OBJETIVO</b><br/>
+    Quer melhorar sua performance e começar a participar de desafios de ciclismo com mais frequência.<br/><br/>
+    <b>DESAFIOS</b><br/>
+    Tem pouco tempo para treinar e precisa de equipamentos mais adequados para melhorar sua performance.<br/><br/>
+    <b>COMO NOSSA EMPRESA PODE AJUDAR</b><br/>
+    Podemos oferecer as melhores peças para customizar a bicicleta, além de roupas e acessórios mais adequados para a prática desse tipo de atividade. Como complemento, temos dicas de treino para melhor performance e calendário anual das corridas e desafios de ciclismo.<br/>
+</details>
 
-![Exemplo de Persona 3](./images/persona3.png)
+<details>
+    <summary>
+        <b>Exemplo 3 - </b>Instituição de ensino superior
+    </summary>
+    <b>LUIZA LIMA</b>
+    <ul>
+        <li>17 anos</li>
+        <li>Estudante do 3° ano do Ensino Médio</li>
+    </ul>
+    <b>MEIOS DE COMUNICAÇÃO QUE MAIS USA</b><br/>
+    Usa demais suas redes sociais, principalmente Instagram e Snapchat. Acompanha diversos canais do YouTube de influenciadores digitais e usa o WhatsApp para falar com seus amigos e familiares. Também acessa sites e blogs de conteúdo para estudantes.<br/><br/>
+    <b>OBJETIVO</b><br/>
+    Quer se formar e ter estabilidade profissional.<br/><br/>
+    <b>DESAFIOS</b><br/>
+    Está em dúvida entre 2 cursos para seguir na faculdade e não sabe qual será a melhor instituição de ensino para atingir seus objetivos.<br/><br/>
+    <b>COMO NOSSA EMPRESA PODE AJUDAR</b><br/>
+    Podemos oferecer uma orientação vocacional gratuíta para ajudá-la a se decidir pelo curso mais adequado para seu perfil. Além disso, podemos oferecer um curso de graduação com ótima estrutura, professores qualificados e parceria com empresas que dão oportunidades aos nossos alunos durante a graduação.<br/>
+</details>
 
 ### Dúvidas sobre o uso de personas
 
