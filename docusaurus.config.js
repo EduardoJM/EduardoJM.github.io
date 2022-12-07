@@ -122,10 +122,19 @@ const config = {
                 label: 'Polywork',
                 href: 'https://www.polywork.com/eduardo_oliveira',
               },
+              {
+                label: 'Dev.to',
+                href: 'https://dev.to/eduardojm',
+              }
             ],
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Eduardo Oliveira. Built with Docusaurus.`,
+      },
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
       },
       prism: {
         theme: lightCodeTheme,
