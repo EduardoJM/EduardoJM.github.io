@@ -64,6 +64,11 @@ const config = {
             label: 'Anotações',
           },
           {
+            to: 'articles',
+            label: 'Artigos',
+            position: 'left',
+          },
+          {
             href: 'https://github.com/EduardoJM/notes',
             label: 'GitHub',
             position: 'right',
