@@ -8,6 +8,13 @@
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
 }
+
+@media (max-width: 992px) {
+  .pageHeader .content {
+    grid-template-columns: 1fr;
+  }
+}
+
 .pageHeader .content .textContent {
   display: flex;
   flex-direction: column;
@@ -15,6 +22,14 @@
   justify-content: center;
   padding-right: 4rem;
 }
+
+@media (max-width: 992px) {
+  .pageHeader .content .textContent {
+    padding: 0;
+    padding-top: 4rem;
+  }
+}
+
 .pageHeader .content .textContent h2 {
   text-transform: uppercase;
   font-weight: 500;
@@ -25,6 +40,21 @@
   text-transform: uppercase;
   font-weight: 700;
   font-size: 2rem;
+}
+.pageHeader .content .imageContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pageHeader .content .imageContent svg {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+@media (max-width: 300px) {
+  .pageHeader .content .imageContent {
+    display: none;
+  }
 }
 
 .firstBall {

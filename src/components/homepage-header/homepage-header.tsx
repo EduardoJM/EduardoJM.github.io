@@ -1,5 +1,4 @@
 import React from "react";
-import clsx from "clsx";
 import styles from "./homepage-header.module.css";
 
 const HomepageHeader = () => {
@@ -16,7 +15,7 @@ const HomepageHeader = () => {
             </p>
           </div>
           <div className={styles.imageContent}>
-            <svg width="512" height="712" viewBox="0 0 512 712">
+            <svg width="512" height="550" viewBox="0 110 512 550">
               <ellipse
                 cx="300"
                 cy="320"
