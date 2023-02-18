@@ -51,6 +51,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
+        style: 'primary',
         title: '',
         logo: {
           alt: 'My Site Logo',
@@ -60,19 +61,19 @@ const config = {
           {
             type: 'doc',
             docId: 'intro',
-            position: 'left',
+            position: 'right',
             label: 'Anotações',
           },
           {
             to: 'articles',
             label: 'Artigos',
-            position: 'left',
+            position: 'right',
           },
-          {
+          /*{
             href: 'https://github.com/EduardoJM/notes',
             label: 'GitHub',
             position: 'right',
-          },
+          },*/
         ],
       },
       footer: {
