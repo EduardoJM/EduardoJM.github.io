@@ -1,7 +1,36 @@
 .pageHeader {
-    min-height: 100vh;
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
 }
-.content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.pageHeader .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.pageHeader .content .textContent {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  padding-right: 4rem;
+}
+.pageHeader .content .textContent h2 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--ifm-color-primary);
+}
+.pageHeader .content .textContent h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.firstBall {
+  fill: #ff4f00;
+  opacity: 0.4;
+}
+.secondBall {
+  fill: #ff4f00;
 }
