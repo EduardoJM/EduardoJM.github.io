@@ -1,0 +1,50 @@
+.metric {
+  align-items: center;
+  padding: 2.5rem 0;
+  width: 100%;
+
+  background: var(--ifm-destak-background-color);
+}
+
+.metric .inner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+}
+
+@media (max-width: 992px) {
+  .metric .inner {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 576px) {
+  .metric .inner {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.metricItem {
+  aspect-ratio: 1.6;
+  border-radius: 0 1rem 0 0;
+  padding: 1.25rem;
+  border: 5px solid var(--ifm-color-primary);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.metricItem.dashed {
+  border: 5px dashed var(--ifm-color-primary);
+}
+.metricItem h2 {
+  margin: 0;
+  font-size: 2.8rem;
+  font-weight: 700;
+  text-align: center;
+}
+.metricItem h3 {
+  font-weight: 400;
+  font-size: 1.125rem;
+  text-align: center;
+}

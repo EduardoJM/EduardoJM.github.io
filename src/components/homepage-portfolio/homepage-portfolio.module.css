@@ -1,0 +1,81 @@
+.inner {
+  padding: 4rem 0;
+}
+.inner .titleBar {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.inner .titleBar .text {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.inner .titleBar .text h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.inner .titleBar .text p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.inner .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem 1rem;
+}
+.inner .grid .item {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.inner .grid .item .thumb {
+  aspect-ratio: 16/9;
+  border-radius: 1rem;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 1.25rem;
+  position: relative;
+
+  background-position: center;
+  background-size: cover;
+}
+.inner .grid .item .thumb .tag {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  background: var(--ifm-color-primary);
+  color: var(--ifm-color-primary-contrast-foreground);
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+.inner .grid .item h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+.inner .grid .item .seeRow {
+  text-decoration: none;
+}
+.inner .grid .item .seeRow .button {
+  gap: 1rem;
+}
+.inner .allRow {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 992px) {
+  .inner .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .inner .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
