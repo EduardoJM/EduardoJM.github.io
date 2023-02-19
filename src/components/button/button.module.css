@@ -1,0 +1,22 @@
+.button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  cursor: pointer;
+
+  appearance: none;
+  border: none;
+  background: var(--ifm-color-primary);
+  color: var(--ifm-color-primary-contrast-foreground);
+
+  transition: all 0.3s ease;
+}
+.button:hover {
+  background: var(--ifm-color-primary-dark);
+}
+.button:active {
+  background: var(--ifm-color-primary-darker);
+}
