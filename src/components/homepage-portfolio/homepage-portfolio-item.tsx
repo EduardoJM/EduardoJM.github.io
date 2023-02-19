@@ -27,7 +27,7 @@ const HomepagePortfolioItem = (props: HomepagePortfolioItemProps) => {
 
       <h3>{title}</h3>
 
-      <Link to="/" className={styles.seeRow}>
+      <Link to={link} className={styles.seeRow}>
         <OutlineButton className={styles.button}>
           See Full Project
           <AiOutlineArrowRight size={16} />

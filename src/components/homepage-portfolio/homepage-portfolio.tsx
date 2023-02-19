@@ -1,3 +1,4 @@
+import Link from "@docusaurus/Link";
 import React from "react";
 import Button from "../button";
 import HomepagePortfolioItem from "./homepage-portfolio-item";
@@ -21,46 +22,16 @@ const HomepagePortfolio = () => {
 
           <div className={styles.grid}>
             <HomepagePortfolioItem
-              image="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-              link="/"
+              image="https://raw.githubusercontent.com/inventare/django-image-uploader-widget/main/docs/static/img/beautiful.gif"
+              link="/portfolio/image-uploader-widget"
               tag="Django-Admin"
-              title="Admin Dashboard Template"
-            />
-            <HomepagePortfolioItem
-              image="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-              link="/"
-              tag="Django-Admin"
-              title="Admin Dashboard Template"
-            />
-            <HomepagePortfolioItem
-              image="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-              link="/"
-              tag="Django-Admin"
-              title="Admin Dashboard Template"
-            />
-            <HomepagePortfolioItem
-              image="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-              link="/"
-              tag="Django-Admin"
-              title="Admin Dashboard Template"
-            />
-            <HomepagePortfolioItem
-              image="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-              link="/"
-              tag="Django-Admin"
-              title="Admin Dashboard Template"
-            />
-            <HomepagePortfolioItem
-              image="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-              link="/"
-              tag="Django-Admin"
-              title="Admin Dashboard Template"
+              title="Image Uploader Widget"
             />
           </div>
 
-          <div className={styles.allRow}>
+          <Link to="/portfolio" className={styles.allRow}>
             <Button>View All</Button>
-          </div>
+          </Link>
         </div>
       </div>
     </section>
