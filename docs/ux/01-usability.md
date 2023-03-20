@@ -8,6 +8,7 @@ tags:
     - Eficácia
     - Satisfação
     - ISO 9241-11
+    - Avaliação de Usabilidade
 ---
 
 Segundo a ISO 9241-11, usabilidade é o quanto um produto pode ser utilizado por um determinado usuário para atingir um determinado objetivo com eficiência, eficácia e satisfação em determinado contexto de uso. Assim é preciso:

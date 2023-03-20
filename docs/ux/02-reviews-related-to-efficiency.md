@@ -4,7 +4,8 @@ title: Avaliações de Usabilidade Relacionadas à Eficiência
 tags:
     - Eficiência
     - Usabilidade
-    - Avaliação
+    - Avaliação de Usabilidade
+    - UX
 ---
 
 Algumas avaliações que são relacionadas a eficiência são:
