@@ -1,7 +1,7 @@
-import React, { FC, ReactNode } from 'react';
-import Link from '@docusaurus/Link';
-import clsx from 'clsx';
-import styles from './article-item.module.css';
+import React, { FC, ReactNode } from "react";
+import Link from "@docusaurus/Link";
+import clsx from "clsx";
+import styles from "./article-item.module.css";
 
 interface CardContainerProps {
   href: string;
@@ -12,7 +12,7 @@ const CardContainer: FC<CardContainerProps> = ({ href, children }) => (
   <Link
     href={href}
     target="_blank"
-    className={clsx('card', styles.cardContainer)}
+    className={clsx("card", styles.cardContainer)}
   >
     {children}
   </Link>
@@ -34,12 +34,20 @@ export interface ArticleItemProps {
   link: string;
 }
 
-const ArticleItem: FC<ArticleItemProps> = ({ title, host, image, date, link }) => (
+const ArticleItem: FC<ArticleItemProps> = ({
+  title,
+  host,
+  image,
+  date,
+  link,
+}) => (
   <CardContainer href={link}>
     {image && <CardThumb image={image} />}
-    <div className='padding--lg'>
+    <div className="padding--lg">
       <h2 className={styles.cardTitle}>{title}</h2>
-      <p className={styles.cardDescription}>Pubicado no {host} em {date}</p>
+      <p className={styles.cardDescription}>
+        Pubicado no {host} em {date}
+      </p>
     </div>
   </CardContainer>
 );
