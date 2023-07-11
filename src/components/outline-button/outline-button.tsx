@@ -1,6 +1,6 @@
-import React, { ButtonHTMLAttributes } from "react";
-import clsx from "clsx";
-import styles from "./outline-button.module.css";
+import React, { ButtonHTMLAttributes } from 'react';
+import clsx from 'clsx';
+import styles from './outline-button.module.css';
 
 export type OutlineButtonProps = ButtonHTMLAttributes<HTMLButtonElement>;
 

@@ -1,13 +1,13 @@
-import Link from "@docusaurus/Link";
-import React from "react";
-import Button from "../button";
-import HomepagePortfolioItem from "./homepage-portfolio-item";
-import styles from "./homepage-portfolio.module.css";
+import Link from '@docusaurus/Link';
+import React from 'react';
+import Button from '../button';
+import HomepagePortfolioItem from './homepage-portfolio-item';
+import styles from './homepage-portfolio.module.css';
 
 const HomepagePortfolio = () => {
   return (
     <section>
-      <div className="container">
+      <div className='container'>
         <div className={styles.inner}>
           <div className={styles.titleBar}>
             <div className={styles.text}>
@@ -22,14 +22,14 @@ const HomepagePortfolio = () => {
 
           <div className={styles.grid}>
             <HomepagePortfolioItem
-              image="https://raw.githubusercontent.com/inventare/django-image-uploader-widget/main/docs/static/img/beautiful.gif"
-              link="/portfolio/image-uploader-widget"
-              tag="Django-Admin"
-              title="Image Uploader Widget"
+              image='https://raw.githubusercontent.com/inventare/django-image-uploader-widget/main/docs/static/img/beautiful.gif'
+              link='/portfolio/image-uploader-widget'
+              tag='Django-Admin'
+              title='Image Uploader Widget'
             />
           </div>
 
-          <Link to="/portfolio" className={styles.allRow}>
+          <Link to='/portfolio' className={styles.allRow}>
             <Button>View All</Button>
           </Link>
         </div>

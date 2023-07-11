@@ -1,5 +1,5 @@
 :root,
-html[data-theme="dark"] {
+html[data-theme='dark'] {
   --ifm-color-primary: #ff4f00;
   --ifm-color-primary-dark: #eb4900;
   --ifm-color-primary-darker: #d84300;

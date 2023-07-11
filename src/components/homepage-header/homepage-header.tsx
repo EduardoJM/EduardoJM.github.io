@@ -1,10 +1,10 @@
-import React from "react";
-import styles from "./homepage-header.module.css";
+import React from 'react';
+import styles from './homepage-header.module.css';
 
 const HomepageHeader = () => {
   return (
     <header className={styles.pageHeader}>
-      <div className="container">
+      <div className='container'>
         <div className={styles.content}>
           <div className={styles.textContent}>
             <h2>Software Engineer</h2>
@@ -15,19 +15,19 @@ const HomepageHeader = () => {
             </p>
           </div>
           <div className={styles.imageContent}>
-            <svg width="512" height="550" viewBox="0 110 512 550">
+            <svg width='512' height='550' viewBox='0 110 512 550'>
               <ellipse
-                cx="300"
-                cy="320"
-                rx="200"
-                ry="200"
+                cx='300'
+                cy='320'
+                rx='200'
+                ry='200'
                 className={styles.firstBall}
               />
               <ellipse
-                cx="230"
-                cy="460"
-                rx="150"
-                ry="150"
+                cx='230'
+                cy='460'
+                rx='150'
+                ry='150'
                 className={styles.secondBall}
               />
             </svg>
