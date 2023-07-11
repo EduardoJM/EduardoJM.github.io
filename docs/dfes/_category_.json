@@ -1,9 +1,8 @@
 {
-    "label": "DFE's",
-    "position": 5,
-    "link": {
-      "type": "generated-index",
-      "description": "Anotações sobre Documentos Fiscais Eletrônicos (emissão, regras de validação, etc.)."
-    }
+  "label": "DFE's",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Anotações sobre Documentos Fiscais Eletrônicos (emissão, regras de validação, etc.)."
   }
-  
+}

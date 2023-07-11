@@ -2,11 +2,11 @@
 id: usability
 title: Acessibilidade e font-size
 tags:
-    - CSS
-    - Acessibilidade
-    - font-size
-    - rem
-    - em
+  - CSS
+  - Acessibilidade
+  - font-size
+  - rem
+  - em
 ---
 
 Para acessibilidade, o ideal é setar o `font-size: 100%`, ou outra porcentagem qualquer, na tag `<html>`. Além disso, apenas o tamanho de fontes devem ser setados com base em **em/rem** para que, caso ajuste o tamanho da fonte nas configurações do navegador, apenas o tamanho das fontes seja alterada e não as margens, paddings, etc.

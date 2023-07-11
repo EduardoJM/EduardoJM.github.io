@@ -1,8 +1,7 @@
 {
-    "label": "Experiência do Usuário",
-    "position": 5,
-    "link": {
-        "type": "generated-index"
-    }
+  "label": "Experiência do Usuário",
+  "position": 5,
+  "link": {
+    "type": "generated-index"
+  }
 }
-  
