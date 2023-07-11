@@ -1,8 +1,8 @@
-import React from "react";
-import { AiOutlineArrowRight } from "react-icons/ai";
-import Link from "@docusaurus/Link";
-import OutlineButton from "../outline-button";
-import styles from "./homepage-portfolio.module.css";
+import React from 'react';
+import { AiOutlineArrowRight } from 'react-icons/ai';
+import Link from '@docusaurus/Link';
+import OutlineButton from '../outline-button';
+import styles from './homepage-portfolio.module.css';
 
 export interface HomepagePortfolioItemProps {
   image: string;
