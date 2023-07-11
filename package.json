@@ -24,7 +24,8 @@
     "react-icons": "^4.7.1"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "2.1.0"
+    "@docusaurus/module-type-aliases": "2.1.0",
+    "prettier": "^2.8.8"
   },
   "browserslist": {
     "production": [
