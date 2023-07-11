@@ -2,9 +2,9 @@
 id: cognitive-walkthrough
 title: Percurso Cognitivo
 tags:
-    - UX
-    - Usabilidade
-    - Avaliação de Usabilidade
+  - UX
+  - Usabilidade
+  - Avaliação de Usabilidade
 ---
 
 Parte do principio de que o usuário aprende a usar o produto através da exploração e não lendo manuais. Assim, é interessante para descobrir se uma interface é fácil de aprender.

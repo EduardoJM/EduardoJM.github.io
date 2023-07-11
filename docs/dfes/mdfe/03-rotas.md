@@ -8,16 +8,16 @@ No caso de modal rodoviário, em que existir pelo menos um estado (UF) entre a U
 
 ## Regra de Negócio
 
-| #    | Regra de Validação                   | Crítica   | Msg   | Efeito |
-| ---- | ------------------------------------ | --------- | ----- | ------ |
-| G076 | Se modal Rodoviário, o grupo de informações de UF de percurso deverá ser preenchido na ordem Origem - Destino sempre que existir pelo menos uma UF entre a UF de carregamento e UF de descarregamento. <br/><br/> **Observação: ** A regra será aplicada considerando as divisas possíveis na ordem definida para o percurso. | Obrig. | 663 | Rej. |
+| #    | Regra de Validação                                                                                                                                                                                                                                                                                                            | Crítica | Msg | Efeito |
+| ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | --- | ------ |
+| G076 | Se modal Rodoviário, o grupo de informações de UF de percurso deverá ser preenchido na ordem Origem - Destino sempre que existir pelo menos uma UF entre a UF de carregamento e UF de descarregamento. <br/><br/> **Observação: ** A regra será aplicada considerando as divisas possíveis na ordem definida para o percurso. | Obrig.  | 663 | Rej.   |
 
 Sendo assim, no caso exemplificado acima, seria necessário preencher os campos `<infPercurso>`, como o leiaute os define:
 
-| #   | Campo       |  Descrição                                              | Ocorr.  | Tamanho    | Observações    |
-| --- | ----------- | ------------------------------------------------------- | ------- | ---------- | -------------- |
-| 24  | infPercurso | Informações do Percurso do MDF-e                        | 0 - 25  |            |                |
-| 25  | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UFPer    | Sigla das Unidades da Federação do percurso do veículo. | 1 - 1   | 2          | Não é necessário repetir as UF de Início e Fim |
+| #   | Campo                               | Descrição                                               | Ocorr. | Tamanho | Observações                                    |
+| --- | ----------------------------------- | ------------------------------------------------------- | ------ | ------- | ---------------------------------------------- |
+| 24  | infPercurso                         | Informações do Percurso do MDF-e                        | 0 - 25 |         |                                                |
+| 25  | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UFPer | Sigla das Unidades da Federação do percurso do veículo. | 1 - 1  | 2       | Não é necessário repetir as UF de Início e Fim |
 
 :::note Observação
 Os campos do Leiaute que não são importantes para essas anotações foram removidos da tabela acima.
@@ -61,4 +61,3 @@ Um algoritmo pode ser, de forma simples, implementado para executar essa valida�
 ## Referências
 
 - [Leiaute - Portal do Manifesto Eletrônico de Documentos Fiscais - SVRS](https://dfe-portal.svrs.rs.gov.br/Mdfe/Documentos#)
-
