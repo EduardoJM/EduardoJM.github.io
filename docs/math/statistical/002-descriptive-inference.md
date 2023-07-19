@@ -8,7 +8,7 @@ tags:
 ---
 
 :::info Estatística Descritiva
-Trata da organização, resumo e organização dos dados.
+Trata da organização, resumo e análise dos dados.
 :::
 
 :::info Estatística Inferencial
