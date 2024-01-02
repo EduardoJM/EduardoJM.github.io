@@ -1,12 +1,12 @@
 ---
-id: reviews-related-to-efficiency
-title: Avaliações de Usabilidade Relacionadas à Eficiência
 tags:
   - Eficiência
   - Usabilidade
   - Avaliação de Usabilidade
   - UX
 ---
+
+# Eficiência
 
 Algumas avaliações que são relacionadas a eficiência são:
 

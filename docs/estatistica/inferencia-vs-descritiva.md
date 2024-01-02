@@ -1,11 +1,11 @@
 ---
-id: descriptive-inference
-title: Estatística Descritiva vs Inferência Estatística
 tags:
   - Estatística
   - Estatística Descritiva
   - Inferência
 ---
+
+# Estatística Descritiva vs Inferência Estatística
 
 :::info Estatística Descritiva
 Trata da organização, resumo e análise dos dados.

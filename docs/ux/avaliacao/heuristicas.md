@@ -1,16 +1,11 @@
 ---
-id: heuristics
-title: Avaliação com o uso de Heurísticas
 tags:
   - UX
-  - Usabilidade
   - Heurísticas
-  - Nielsen
-  - Molich e Nielsen
-  - Heurísticas Nielsen
-  - Heurísticas de Molich e Nielsen
   - Avaliação de Usabilidade
 ---
+
+# Heurísticas
 
 O fluxo para uma avaliação com o uso de heurísticas é:
 
