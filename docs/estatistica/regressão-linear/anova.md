@@ -33,6 +33,6 @@ $$
 | Residual  | $SS_E$           | $n-2$              | $MS_E=SS_E/(n-1)$ |               |
 | Total     | $SS_T$           | $n-1$              |                   |               |
 
-## Lucro Relativo
+## Coeficiente de Determinação
 
-O lucro relativo que se ganha ao introduzir o modelo, é dado por $$R^2 = \dfrac{SS_R}{SS_T}$$
+O coeficiente de determinação (ou lucro relativo) que se ganha ao introduzir o modelo, é dado por $$R^2 = \dfrac{SS_R}{SS_T}$$
