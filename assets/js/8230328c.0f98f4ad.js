@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknotes=self.webpackChunknotes||[]).push([[5309],{1194:e=>{e.exports=JSON.parse('{"title":"DDD","slug":"/category/ddd","permalink":"/docs/category/ddd","navigation":{"previous":{"title":"Arquitetura","permalink":"/docs/category/arquitetura"},"next":{"title":"Domain Driven Design","permalink":"/docs/arquitetura/ddd/"}}}')}}]);
