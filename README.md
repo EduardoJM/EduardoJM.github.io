@@ -5,7 +5,7 @@ This is a personal website, built using [Docusaurus](https://docusaurus.io/), fo
 ---
 
 <p align="center">
-  <a href="https://github.com/inventare/design-system/blob/main/LICENSE" target="_blank"><img src="https://img.shields.io/github/deployments/EduardoJM/EduardoJM.github.io/github-pages?label=Deployments" alt="deployments status" /></a>
+  <a href="https://eduardojm.github.io/" target="_blank"><img src="https://img.shields.io/github/deployments/EduardoJM/EduardoJM.github.io/github-pages?label=Deployments" alt="deployments status" /></a>
 </p>
 
 ## Running on Localhost
