@@ -1,3 +1,9 @@
+---
+sidebar_position: 1
+tags:
+  - Solid
+---
+
 # Single Responsibility Principle
 
 > Uma classe deve ter um, e apenas um, motivo para ser modificada.
