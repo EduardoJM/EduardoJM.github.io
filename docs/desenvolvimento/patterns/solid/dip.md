@@ -1,3 +1,9 @@
+---
+sidebar_position: 2
+tags:
+  - Solid
+---
+
 # Dependency Inversion Principle
 
 ## Acoplamento

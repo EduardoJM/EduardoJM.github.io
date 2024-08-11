@@ -1,3 +1,16 @@
+---
+tags:
+  - React
+  - Testes
+  - testing-library
+  - accessibility
+  - forms
+---
+
+# Testando formulários com acessibilidade
+
+Existem algumas técnicas que podem ser utilizadas para testar formulários com acessibiliade utilizando React e a testing-library.
+
 ## Input's
 
 ### Componente
@@ -14,7 +27,7 @@
 ### Querying
 
 ```tsx
-user.type(screen.getByRole("textbox", { name: "Name" }), "Test");
+user.type(screen.getByRole('textbox', { name: 'Name' }), 'Test');
 ```
 
 > The `{ name: "Name" }` query for acessible name and not for the input name property.
@@ -26,13 +39,13 @@ Use the `*ByRole` methods:
 ### Componente
 
 ```tsx
-<button type="submit">Sign up</button>
+<button type='submit'>Sign up</button>
 ```
 
 ### Querying
 
 ```tsx
-screen.getByRole("button", { name: "Sign up" });
+screen.getByRole('button', { name: 'Sign up' });
 ```
 
 > The accessible name this time is the actual text content of the button. Note that if we add an `aria-label` to the button, the accessible name will be the text content of that `aria-label`.
