@@ -47,3 +47,8 @@ export default function () {
 ```
 
 Assim como o teste de ponto de interrupção, é necessário observabilidade para conseguir identificar problemas que acontecem durante o teste.
+
+## Referências
+
+- [Tipos de teste de carga](https://eltonminetto.dev/post/2024-01-05-load-test-types/)
+- [Teste de carga usando o k6](https://eltonminetto.dev/post/2024-01-11-load-test-k6/)

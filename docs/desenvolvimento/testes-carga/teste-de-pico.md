@@ -40,3 +40,8 @@ export default function () {
 ```
 
 Podem acontecer falhas e degradação do desempenho e, dessa forma, os resultados do teste do k6 podem fornecer insights se a porcentagem de falhas e a performance que caiu são aceitáveis para esse caso ou não.
+
+## Referências
+
+- [Tipos de teste de carga](https://eltonminetto.dev/post/2024-01-05-load-test-types/)
+- [Teste de carga usando o k6](https://eltonminetto.dev/post/2024-01-11-load-test-k6/)

@@ -37,3 +37,8 @@ export default function () {
 Para analisar, de melhor forma possível, é necessário fazer o uso de observabilidade. Somente com os dados dos testes do k6 ficará difícil encontrar os problemas.
 
 É preciso analisar como o servidor e aplicação se comportam para entender quando ela para de responder. Isso permite identificar gargalos e pontos de ruptura do sistema.
+
+## Referências
+
+- [Tipos de teste de carga](https://eltonminetto.dev/post/2024-01-05-load-test-types/)
+- [Teste de carga usando o k6](https://eltonminetto.dev/post/2024-01-11-load-test-k6/)
