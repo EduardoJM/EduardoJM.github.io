@@ -2,7 +2,7 @@
 
 > As anotações abaixo foram feitas a partir das aulas da pós-graduação da PUC-Minas e serão complementadas no futuro.
 
-![ddd-diagram](./images/ddd-diagram.png)
+![São 4 caixas de texto, feitas de modo que tem-se: Application no topo, Infrastructure na parte de baixo, Service na direita, Domain na esquerda. Existem setas apontando de Application para Domain e para Service. Existem setas apontandos de Service para Infrastructure e para Domain. Existe outra seta apontando de infrastructure para domain.](./images/ddd-diagram.png)
 
 ## Camadas
 
@@ -30,7 +30,6 @@ Nela são implementados fluxos de trabalho e regras globais ao sistema. Essa cam
 - Entidades de domínio não devem ter nenhuma dependência direta (como derivar de uma classe base) da infraestrutura ou acesso a dados, como Entity Framework, Hibrnate ou JPA.
 - Idealmente, suas entidades de domínio não devem derivar nem implementar nenhum tipo definido na infraestrutura.
 
-
 ## Padrões essenciais do DDD
 
 - Objeto de Valor
@@ -41,5 +40,3 @@ Nela são implementados fluxos de trabalho e regras globais ao sistema. Essa cam
 - Contexto Limitado
 - Fábrica de Entidades
 - Serviço de Domínio
-
-
