@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Teste de Estresse
 
-![representação gráfica do teste de estresse](./images/teste-estresse.png)
+![Mostra um gráfico em duas dimensões, sem números, com o eixo x nomeado de Time e eixo y nomeado de Throughout. O eixo x do gráfico é dividido em 3 partes: um período de ramp-up onde o gráfico sobe, em linha reta, de 0 até um valor no meio do eixo y (sem número, porém definido como sendo maior que o número típico de usuários), logo após ele se mantem constante nesse valor e no final ele decresce, em reta, até 0. A imagem se assemelha a um trapézio.](./images/teste-estresse.png)
 
 ## Objetivos
 

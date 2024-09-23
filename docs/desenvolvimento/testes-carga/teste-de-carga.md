@@ -21,7 +21,7 @@ Como estamos simulando o comportamento normal de um usuário, a carga deve aumen
 Esse tipo de teste pode ser utilizado, também, para ver como o sistema se comporta com relação a elasticidade.
 :::
 
-![exemplo gráfico do teste de carga](./images/teste-carga.png)
+![Mostra um gráfico em duas dimensões, sem números, com o eixo x nomeado de Time e eixo y nomeado de Throughout. O eixo x do gráfico é dividido em 3 partes: um período de ramp-up onde o gráfico sobe, em linha reta, de 0 até um valor no meio do eixo y (sem números, definido como o número típico de usuários), logo após ele se mantem constante nesse valor e no final ele decresce, em reta, até 0. A imagem se assemelha a um trapézio.](./images/teste-carga.png)
 
 ## Testando com o k6
 

@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Teste de ponto de interrupção
 
-![teste de ponto de interrupção](./images/teste-ponto-interrupcao.png)
+![Mostra um gráfico em duas dimensões, sem números, com o eixo x nomeado de Time e eixo y nomeado de Throughout. O gráfico sobe em linha reta, de 0 até um valor no meio do fim do eixo y (sem número, porém definido como sendo muito maior que o número típico de usuários para determinar onde a aplicação quebra). Parece o gráfico de uma função de primeiro grau crescente.](./images/teste-ponto-interrupcao.png)
 
 ## Objetivos
 
