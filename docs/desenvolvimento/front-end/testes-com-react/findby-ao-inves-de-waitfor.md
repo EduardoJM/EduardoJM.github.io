@@ -5,10 +5,10 @@ tags:
   - testing-library
 ---
 
-# Usar findBy ao invés waitFor
+# Usar findBy ao invés de waitFor
 
 :::info Resumo
-usar `await findBy*()` ao invés de usar `waitFor()` para esperar atualização de renderização de componentes pode ser mais legível.
+Usar `await findBy*()` ao invés de usar `waitFor()` para esperar atualização de renderização de componentes pode ser mais legível.
 :::
 
 ## Componente
