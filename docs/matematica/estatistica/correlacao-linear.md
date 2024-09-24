@@ -10,7 +10,7 @@ tags:
 
 É uma medida adimensional que está entre $-1$ e $1$ e mede a relação entre duas variáveis;
 
-![Gráficos de Correlação](./images/correlacao.jpg)
+![Três representações de gráficos, sem números, posicionados, lado a lado. No primeiro mostra pontos dispostos no sentido de uma reta crescente e abaixo dele apresenta o texto Corr(x, y) ≃ 1. O segundo mostra os pontos dispostos no sentido de uma reta decrescente e abaixo dele apresenta o texto Corr(x, y) ≃ -1. O terceiro apresenta pontos espalhados e o texto abaixo é Corr(x, y) ≃ 0.](./images/correlacao.jpg)
 
 :::info Correlação Positiva
 Uma correlação positiva indica relacionamento diretamente proporcional, ou seja: quando o valor de uma variável aumenta, o da outra também.

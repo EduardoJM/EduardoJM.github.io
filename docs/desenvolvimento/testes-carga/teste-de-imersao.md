@@ -8,7 +8,7 @@ sidebar_position: 6
 Também é conhecida com **"endurance testing"**, **"capacity testing"** ou **"longevity testing"**.
 :::
 
-![representação gráfica do teste de imersão](./images/teste-imersao.png)
+![Mostra um gráfico em duas dimensões, sem números, com o eixo x nomeado de Time e eixo y nomeado de Throughout. O eixo x do gráfico é dividido em 3 partes: um período de ramp-up onde o gráfico sobe, em linha reta, de 0 até um valor no meio do eixo y (sem números, definido como o número típico de usuários), logo após ele se mantem constante nesse valor e no final ele decresce, em reta, até 0. A imagem se assemelha a um trapézio.](./images/teste-imersao.png)
 
 ## Objetivos
 

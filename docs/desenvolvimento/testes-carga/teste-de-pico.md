@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Teste de Pico
 
-![representação gráfica de um teste de pico](./images/teste-de-pico.png)
+![Mostra um gráfico em duas dimensões, sem números, com o eixo x nomeado de Time e eixo y nomeado de Throughout. O eixo x do gráfico é dividido em 2 partes: um período de ramp-up onde o gráfico sobe, em linha reta, de 0 até um valor no meio do eixo y (sem número, porém definido como sendo maior que o número típico de usuários), logo após ele decresce, em reta, até 0. A imagem se assemelha a uma pirâmide.](./images/teste-de-pico.png)
 
 ## Objetivos
 
