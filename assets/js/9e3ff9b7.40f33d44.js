@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknotes=self.webpackChunknotes||[]).push([[9600],{1011:(e,s,n)=>{n.r(s),n.d(s,{default:()=>i});n(6540);var t=n(7601),r=n(4848);function i(){return(0,r.jsx)(t.A,{title:"Portf\xf3lio",description:"Projetos",children:(0,r.jsx)("div",{className:"container",children:(0,r.jsx)("h1",{children:"Em Constru\xe7\xe3o"})})})}}}]);
