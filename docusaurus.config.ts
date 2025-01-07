@@ -47,6 +47,11 @@ const config: Config = {
           editUrl:
             'https://github.com/EduardoJM/EduardoJM.github.io/tree/main/',
         },
+        blog: {
+          blogTitle: 'Docusaurus blog!',
+          blogDescription: 'A Docusaurus powered blog!',
+          postsPerPage: 10,
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -79,7 +84,7 @@ const config: Config = {
           label: 'Tags',
         },
         {
-          to: 'articles',
+          to: 'blog',
           label: 'Artigos',
           position: 'right',
         },
