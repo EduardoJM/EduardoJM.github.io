@@ -47,6 +47,13 @@ const config: Config = {
           editUrl:
             'https://github.com/EduardoJM/EduardoJM.github.io/tree/main/',
         },
+        blog: {
+          blogTitle: 'Blog',
+          blogDescription: 'Blog de Eduardo Oliveira!',
+          postsPerPage: 10,
+          blogSidebarCount: 5,
+          blogSidebarTitle: 'Artigos recentes',
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -79,7 +86,7 @@ const config: Config = {
           label: 'Tags',
         },
         {
-          to: 'articles',
+          to: 'blog',
           label: 'Artigos',
           position: 'right',
         },
