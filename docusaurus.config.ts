@@ -42,27 +42,19 @@ const config: Config = {
           sidebarPath: require.resolve('./sidebars.js'),
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
+          routeBasePath: '/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/EduardoJM/EduardoJM.github.io/tree/main/',
         },
-        blog: {
-          blogTitle: 'Blog',
-          blogDescription: 'Blog de Eduardo Oliveira!',
-          postsPerPage: 10,
-          blogSidebarCount: 5,
-          blogSidebarTitle: 'Artigos recentes',
-        },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./theme.css'),
         },
       } satisfies Preset.Options,
     ],
   ],
-  plugins: [
-    require.resolve('docusaurus-lunr-search'),
-  ],
+  plugins: [require.resolve('docusaurus-lunr-search')],
 
   themeConfig: {
     navbar: {
@@ -70,30 +62,15 @@ const config: Config = {
       hideOnScroll: false,
       items: [
         {
-          href: '/',
-          label: 'Início',
-          position: 'right',
-        },
-        {
           type: 'doc',
-          docId: 'intro',
+          docId: 'index',
           position: 'right',
-          label: 'Anotações',
+          label: 'Início',
         },
         {
-          to: '/docs/tags',
+          to: '/tags',
           position: 'right',
           label: 'Tags',
-        },
-        {
-          to: 'blog',
-          label: 'Artigos',
-          position: 'right',
-        },
-        {
-          href: 'http://dev.to/eduardojm',
-          position: 'right',
-          html: '<button class="btn-cv">Download CV</button>',
         },
       ],
     },
@@ -104,8 +81,8 @@ const config: Config = {
           title: 'Internet',
           items: [
             {
-              label: 'Anotações',
-              to: '/docs/intro',
+              label: 'Início',
+              to: '/',
             },
           ],
         },
