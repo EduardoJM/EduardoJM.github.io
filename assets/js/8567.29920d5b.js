@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknotes=self.webpackChunknotes||[]).push([[8567],{8567:(e,s,c)=>{c.d(s,{createArchitectureServices:()=>t.S});var t=c(3333);c(9089)}}]);
